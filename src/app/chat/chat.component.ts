@@ -14,8 +14,6 @@ import { Mensaje } from './models/mensaje';
 export class ChatComponent implements OnInit {
 
   private client: Client;
-
-  private variable:string;
   
   conectado:boolean=false;
 
